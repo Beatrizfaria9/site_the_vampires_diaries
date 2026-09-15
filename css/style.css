@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #671d1d;
+    color: #000000;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+}
+
+header h2 {
+    font-size: 1.3rem;
+    color: #111111;
+    margin-right: auto;
+}
+
+header p {
+    display: none;
+}
+
+header h3 {
+    font-size: 0.85rem;
+    font-weight: normal;
+    color: #000000;
+    margin-left: 20px;
+}
+
+#introducao {
+    background-color: #984343;
+    padding: 60px 10%;
+}
+
+#introducao article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.banner-conteudo {
+    flex: 1;
+}
+
+#introducao p strong {
+    color: #660000;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+#introducao h1 {
+    font-size: 2.8rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+#introducao p {
+    color: #390101;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+#introducao img {
+    width: 380px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+#cards {
+    padding: 60px 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+#cards h2 {
+    grid-column: span 3;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #111111;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+}
+
+.card p {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 15px 20px 5px 20px;
+    color: #111111;
+}
+
+.card span {
+    display: block;
+    font-size: 0.85rem;
+    color: #080606;
+    padding: 0 20px;
+    line-height: 1.5;
+}
