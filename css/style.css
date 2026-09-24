@@ -1,121 +1,118 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+     margin: 0;
+    padding:0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #671d1d;
-    color: #000000;
+    background-color: rgb(158, 67, 67);
 }
 
+
 header {
-    background-color: #ffffff;
-    padding: 20px 10%;
+    background-color: rgb(212, 202, 202) ;
     display: flex;
+    padding: 10px;
+    justify-content: space-between;
     align-items: center;
 }
 
-header h2 {
-    font-size: 1.3rem;
-    color: #111111;
-    margin-right: auto;
+
+.texto-pequeno {
+    color: rgb(112, 5, 5);
+    font-size: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
-header p {
-    display: none;
+
+#titulo-header p {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-header h3 {
-    font-size: 0.85rem;
-    font-weight: normal;
-    color: #000000;
-    margin-left: 20px;
+
+#menu-header {
+    display: flex;
+    gap:10px;
 }
 
-#introducao {
-    background-color: #984343;
-    padding: 60px 10%;
+
+#menu-header p {
+    color: black;
+    font-size: 12px;
 }
 
-#introducao article {
+
+main {
+    padding: 20px;
+}
+
+
+#vampiro {
+    background-color: rgb(136, 50, 50);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
 }
 
-.banner-conteudo {
-    flex: 1;
+
+#texto-vampiro h1 {
+    font-size: 80px;
 }
 
-#introducao p strong {
-    color: #660000;
-    font-size: 0.75rem;
-    letter-spacing: 1px;
+
+#texto-vampiro p{
+    font-size: 16px;
 }
 
-#introducao h1 {
-    font-size: 2.8rem;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 1.1;
+
+#img-vampiro img {
+    width:350px;
+    padding: 20px;
 }
 
-#introducao p {
-    color: #390101;
-    line-height: 1.6;
-    font-size: 0.95rem;
+
+#galeria-texto {
+    margin-top: 50px;
 }
 
-#introducao img {
-    width: 380px;
-    height: 260px;
-    object-fit: cover;
-    border-radius: 4px;
-}
-
-#cards {
-    padding: 60px 10%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-#cards h2 {
-    grid-column: span 3;
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    color: #111111;
-}
 
 .card {
-    background-color: #ffffff;
-    border-radius: 4px;
-    overflow: hidden;
-    padding-bottom: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    background-color: rgb(242, 217, 217);
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .card img {
     width: 100%;
-    height: 180px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 4px 4px 0 0;
 }
 
-.card p {
-    font-weight: bold;
-    font-size: 1.1rem;
-    padding: 15px 20px 5px 20px;
-    color: #111111;
+
+#galeria-imgs {
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
-.card span {
-    display: block;
-    font-size: 0.85rem;
-    color: #080606;
-    padding: 0 20px;
-    line-height: 1.5;
+
+.card-texto {
+    padding: 10px;
+}
+
+
+footer hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: antiquewhite;
 }
